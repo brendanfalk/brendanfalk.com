@@ -22,7 +22,7 @@ console.log(`
       JOBS AT FIG: https://fig.io/jobs
       EMAIL ME:    brendan@fig.io
 
-      
+
 
 `)
 
@@ -63,7 +63,7 @@ export default function Home({
 
 
 
-           {allPostsData.length ?
+           {(allPostsData|| []).length ?
           allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
