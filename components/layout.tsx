@@ -48,7 +48,7 @@ export default function Layout({
             <Image
               priority
               // src="/images/Brendan Falk Tokyo Square.jpg"
-              src="/images/Square Brendan.png"
+              src="/images/profile.png"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
@@ -62,7 +62,7 @@ export default function Layout({
               <a>
                 <Image
                   priority
-                  src="/images/Square Brendan.png"
+                  src="/images/profile.png"
                   className={utilStyles.borderCircle}
                   height={108}
                   width={108}
