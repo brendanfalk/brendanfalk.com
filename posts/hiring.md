@@ -1,0 +1,15 @@
+---
+title: "Hiring"
+date: ""
+tags: early-stage-startup
+---
+
+
+
+* What option pool will you pick
+* What salary will you pick
+
+
+
+
+
