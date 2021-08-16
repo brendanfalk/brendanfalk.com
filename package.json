@@ -8,7 +8,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "@supabase/ui": "^0.32.2",
     "date-fns": "^2.11.1",
     "esbuild": "^0.12.20",
     "gray-matter": "^4.0.3",
