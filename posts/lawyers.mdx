@@ -1,13 +1,41 @@
 ---
-title: 
+title: My title
 date: 
 tags: early-stage-startup
 ---
 
 
 
+import { useState } from 'react'
+
+# Here's a button, click it!
+
+
+export var exampleImage = 'https://example.com/image.jpg'
+
+export const MyDynamicButton = () => {
+  const [count, setCount] = useState(0)
+  return (
+      <>
+      <button onClick={() => setCount(count + 1)}>Clicked {count} times!</button>
+      <button onClick={() => myState.apple = "hey there"}>Change title</button>
+      </>
+  )
+}
+
+Click it! <MyDynamicButton />
+{JSON.stringify(frontmatter)}
+
+
+
+
 # Lawyers and Early Stage Startups 
 
+# {frontmatter.title}
+
+
+{props.myState.apple}<br/>
+{exampleImage}<br/>
 
 
 What will you need lawyers for
@@ -16,6 +44,9 @@ What will you need lawyers for
 * Fundraising events 
 
 
+
+
+export const dog = "dog";
 
 
 

@@ -35,7 +35,7 @@ export default function Post(
           {/*  The post will error if there is no date front matter */}
         {frontmatter.date ? (<Date dateString={frontmatter.date} />) : "COMING SOON"}
         </div>
-        <Component />
+        <Component myState={{"apple": "orange"}}/>
       </article>
     </Layout>
   )
