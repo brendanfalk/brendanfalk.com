@@ -15,6 +15,7 @@ export interface Post {
   date: string
   excerpt?: string
   content: string
+  published: boolean
 }
 
 export interface PostsByYear {
@@ -54,6 +55,7 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
     date: data.date || new Date().toISOString(),
     excerpt: data.excerpt,
     content: contentHtml,
+    published: data.published || false,
   }
 }
 
@@ -63,8 +65,9 @@ export async function getAllPosts(): Promise<Post[]> {
     slugs.map((slug) => getPostBySlug(slug))
   )
   
+  // Filter out null posts and unpublished posts for listings
   return posts
-    .filter((post): post is Post => post !== null)
+    .filter((post): post is Post => post !== null && post.published === true)
     .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
 }
 
