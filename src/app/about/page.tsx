@@ -56,7 +56,7 @@ export default function AboutPage() {
           <li>
             You can follow me on{" "}
             <a
-              href="https://x.com/falk"
+              href="https://x.com/brendanfalk"
               target="_blank"
               rel="noopener noreferrer"
             >
