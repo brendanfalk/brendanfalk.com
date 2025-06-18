@@ -21,7 +21,7 @@ export default function AboutPage() {
         About
       </h1>
 
-      <div className="prose prose-gray dark:prose-invert max-w-none prose-headings:text-black dark:prose-headings:text-white prose-p:text-gray-800 dark:prose-p:text-gray-200 prose-a:text-black dark:prose-a:text-white">
+      <div className="prose prose-gray dark:prose-invert max-w-none prose-headings:text-black dark:prose-headings:text-white prose-headings:mb-2 prose-h1:mb-3 prose-h2:mb-2 prose-h3:mb-2 prose-h4:mb-2 prose-h5:mb-2 prose-h6:mb-2 prose-p:text-gray-800 dark:prose-p:text-gray-200 prose-ul:mb-4 prose-ol:mb-4 prose-li:mb-1 prose-a:text-black dark:prose-a:text-white">
         <p>
           Hi, I'm Brendan Falk. Welcome to my personal blog where I share my
           thoughts and ideas.

@@ -88,7 +88,17 @@ export default async function PostPage({ params }: Props) {
         </header>
 
         <div
-          className="prose prose-gray dark:prose-invert max-w-none prose-headings:text-black dark:prose-headings:text-white prose-p:text-gray-800 dark:prose-p:text-gray-200 prose-a:text-black dark:prose-a:text-white prose-strong:text-black dark:prose-strong:text-white prose-code:text-black dark:prose-code:text-white prose-pre:bg-gray-100 dark:prose-pre:bg-gray-900"
+          className="prose prose-neutral dark:prose-invert max-w-none 
+                     prose-headings:font-semibold prose-headings:tracking-tight prose-headings:mb-2
+                     prose-h1:mb-3 prose-h2:mb-2 prose-h3:mb-2 prose-h4:mb-2 prose-h5:mb-2 prose-h6:mb-2
+                     prose-p:leading-7 prose-p:text-gray-700 dark:prose-p:text-gray-300
+                     prose-ul:mb-4 prose-ol:mb-4 prose-li:mb-1
+                     prose-a:font-medium prose-a:underline prose-a:decoration-from-font prose-a:underline-offset-4
+                     prose-blockquote:font-normal prose-blockquote:not-italic
+                     prose-code:font-semibold prose-code:before:content-none prose-code:after:content-none
+                     prose-pre:border prose-pre:bg-gray-50 dark:prose-pre:bg-gray-900 prose-pre:border-gray-200 dark:prose-pre:border-gray-800
+                     prose-hr:border-gray-200 dark:prose-hr:border-gray-800
+                     prose-strong:font-semibold prose-strong:text-gray-900 dark:prose-strong:text-gray-100"
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
       </article>
