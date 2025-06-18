@@ -1,9 +1,7 @@
 ---
-title: "We are pivoting from Palantir"
+title: "We are pivoting away from AI Palantir"
 date: "2025-06-18"
 ---
-
-# Hello World
 
 Welcome to my new blog! I'm excited to share my thoughts and experiences here.
 

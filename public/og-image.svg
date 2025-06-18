@@ -1,5 +1,21 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="630" fill="#ffffff"/>
-  <text x="100" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" fill="#000000">Brendan Falk</text>
-  <text x="100" y="480" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#999999">brendanfalk.com</text>
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Main BF logo -->
+  <text x="600" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="200" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0.05em">BF</text>
+  
+  <!-- Name -->
+  <text x="600" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="600" fill="#ffffff" text-anchor="middle">Brendan Falk</text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="410" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="400" fill="#888888" text-anchor="middle">Founder &amp; CEO @ Zeus</text>
+  
+  <!-- Website -->
+  <text x="600" y="460" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="400" fill="#666666" text-anchor="middle">brendanfalk.com</text>
 </svg> 
