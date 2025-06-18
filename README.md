@@ -1,31 +1,36 @@
-# Brendan Falk Personal Website
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-👋 Hey!
+## Getting Started
 
-I'm Brendan and I am the co-founder & CEO of [Fig](https://fig.io)
+First, run the development server:
 
-- 📍  I am from Australia 🦘 and now live in SF 🌉
-- 👍  I went to College at [Harvard](harvard.edu) and worked at [Brex](brex.com)
-- 📫  You can find me on [Twitter](https://twitter.com/brendanfalk), [LinkedIn](https://www.linkedin.com/in/brendanfalk) and [email](mailto:brendan@withfig.com)
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## About this repo
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-1. All articles are in the `posts/` directory
-2. Please feel free to make a PR 😊 
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Learn More
 
+To learn more about Next.js, take a look at the following resources:
 
-## Resources
-* [Nextjs Starter template](https://github.com/vercel/next-learn-starter) (yeah, it's pretty similar, I just haven't had time to customise)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Todos
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-- [ ] RSS Feed
-- [ ] Tags 
-- [ ] Search
-- [ ] Custom font
-- [ ] Link GitHub
-- [ ] 
+## Deploy on Vercel
 
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
